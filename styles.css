@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0e0e0; /* Светло-серый фон */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 50px; /* Увеличен отступ сверху */
+    font-weight: bold;
+}
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider .slick-slide {
+    margin: 0 12px; /* Отступы между изображениями */
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slick-list {
+    margin: 0 -15px; /* Убирает сдвиг контейнера */
+}
